@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : LEBARS
+- PRÉNOM : LUCAS
+- GROUPE : B2
+- URL du site : https://gorgeous-lollipop-9e0bb5.netlify.app/
+- URL FIGMA : https://www.figma.com/design/fl4lA50eSqOldcX2V5mYwh/Projet-S1?node-id=0-1&t=HaFFXuDtjodrgC84-1
