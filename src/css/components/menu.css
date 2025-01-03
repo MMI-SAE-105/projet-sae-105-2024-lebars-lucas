@@ -1,15 +1,52 @@
 .menu {
     position: fixed;
     inset: 0;
-    background-color: #FB6B24;
+    background-color: #665341;
     z-index: 1000;
     visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .menu[aria-hidden="false"] {
     visibility: visible;
+}
+
+.lateral-bar{
+    position: absolute;
+    left: 0;
+    
+}
+
+.bar-lateral{
+    height: 100vh;
+    
+}
+
+.bar-lateral-chapeau{
+    top: 0;
+    left: -10px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.close-x-icon{
+    position: absolute;
+    top: 27.5px;
+    right: 27.5px;
+}
+
+.menu__item a{
+    
+    text-decoration: none;
+    color: var(--texte-menu-color);
+    font-family: var( --font-family-menu);
+    font-size: var(--font-style-menu);
+    font-style: var(--font-style-menu);
+    font-weight: var(--font-weight-menu);
+    line-height: var(--line-height-menu);
 }

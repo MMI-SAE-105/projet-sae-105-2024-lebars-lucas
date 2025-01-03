@@ -8,7 +8,7 @@ menuButton.addEventListener('click', () => {
 
 // Délégation d'événements pour l'image "logoaccueil.png"
 document.addEventListener('click', function(event) {
-  if (event.target.src.endsWith('/assets/icons/hamburger-icon.svg')) {
+  if (event.target.src.endsWith('/assets/icons/X-close-icon.png')) {
     menu.setAttribute('aria-hidden', 'true');
   }
 });

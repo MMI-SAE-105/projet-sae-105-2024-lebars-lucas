@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" href="/src/css/vendors/normalize.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>HAT-ERA</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
@@ -33,20 +34,24 @@
 
         <div class="menu-container">
             <nav class="menu" id="mainNav" aria-hidden="true">
-              <ul class="menu__list">
-                <li class="menu__item"><a href="index.html"><img src="/assets/icons/Accueil.png"></a></li>
-                <li class="menu__item"><a href="informations.html"><img src="/assets/icons/Informations.png"></a></li>
-                <li class="menu__item"><a href="billeterie.html"><img src="/assets/icons/Billeterie(orange).png"></a></li>
-                <li class="menu__item"><a href="partenaires.html"><img src="/assets/icons/PARTENAIRES.png"></a></li>
-                <li class="menu__item"><a href="contact.html"><img src="/assets/icons/CONTACTS.png"></a></li>
-              </ul>
-              <div class="titre">
-                <img src="/assets/icons/logoaccueil.png" alt="logoaccueil" class="accueillogo">
+                <div class="lateral-bar">
+                    <img src="assets/img/lateral-bar.png" alt="lateral-bar" class="bar-lateral">
+                    <img src="assets/icons/logo-chapeau.svg" alt="lateral-bar-chapeau" class="bar-lateral-chapeau">
                 </div>
-        <div class="elipsefooter">
-        <img src="/assets/icons/Ellipse20.png" alt="footerelipse" class="elipsefoot">
-        <img src="/assets/icons/FESTIVHALLOWEEN(orange).png" alt="titreelipse" class="elipsetitre">
-        </div>
+                    
+                <div class="close-x-icon">
+                <img src="assets/icons/X-close-icon.png" alt="close-x-icon" class="x-icon-close">
+            </div>
+
+              <ul class="menu__list">
+                <li class="menu__item"><a href="index.html">Film</a></li>
+                <li class="menu__item"><a href="informations.html">Livre</a></li>
+                <li class="menu__item"><a href="billeterie.html">Musique</a></li>
+                <li class="menu__item"><a href="partenaires.html">Réalisateur</a></li>
+                <li class="menu__item"><a href="contact.html">Évolution</a></li>
+                <li class="menu__item"><a href="contact.html">Listes de film</a></li>
+                <li class="menu__item"><a href="contact.html">Autres</a></li>
+              </ul>
             </nav>
           </div>
 </div>
