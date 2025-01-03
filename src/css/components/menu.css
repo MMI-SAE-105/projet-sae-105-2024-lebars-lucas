@@ -1,0 +1,15 @@
+.menu {
+    position: fixed;
+    inset: 0;
+    background-color: #FB6B24;
+    z-index: 1000;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu[aria-hidden="false"] {
+    visibility: visible;
+}
