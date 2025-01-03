@@ -1,0 +1,15 @@
+.zone-header{
+    background-color: #665341;
+    height: 110px;
+    
+}
+
+.icon-hamburger{
+    
+}
+
+.hamburger-icon-menu{
+    margin-left: 20px;
+    display: flex; /* Active Flexbox pour centrer le contenu si nécessaire */
+    align-items: center; /* Centre verticalement */
+}
