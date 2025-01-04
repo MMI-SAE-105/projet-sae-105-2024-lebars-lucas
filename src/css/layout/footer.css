@@ -91,3 +91,13 @@ margin-bottom: 8px;
     text-decoration: none; /* Supprime le soulignage */
     font-weight: bold; /* Met le texte en gras */
 }
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.a-propos-footer a, .contact-footer a {
+    color: inherit; /* Hérite de la couleur du texte parent */
+    text-decoration: none; /* Supprime le soulignage */
+}
