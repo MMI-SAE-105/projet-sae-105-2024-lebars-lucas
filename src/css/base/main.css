@@ -27,3 +27,179 @@ height: 450px;
 margin: 0 auto;
 margin-bottom: 80px;
 }
+
+.le-chapeau-card{
+    color: var(--color-chap-card);
+font-family: var(--font-family-chap-card);
+font-size: var(--font-size-chap-card);
+font-style: var(--font-style-chap-card);
+font-weight: var(--font-weight-chap-card);
+line-height: var(--line-height-chap-card);
+text-align: center;
+margin-bottom: 20px;
+}
+
+.txt-card-pres{
+    text-align: center;
+    color: var(--color-txt-card);
+font-family: var(--font-family-txt-card);
+font-size: var(--font-size-txt-card);
+font-style: var(--font-style-txt-card);
+font-weight: var(--font-weight-txt-card);
+line-height: var(--line-height-txt-card);
+}
+
+.rectangle-card-2{
+    border-radius: 25px;
+background: #FFD9B6;
+width: 325px;
+height: 249px;
+flex-shrink: 0;
+margin: 0 auto;
+margin-bottom: 95px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.txt-card-2{
+    text-align: center;
+    color: var(--color-txt-card-2);
+font-family: var(--font-family-txt-card);
+font-size: var(--font-size-txt-card);
+font-style: var(--font-style-txt-card);
+font-weight: var(--font-weight-txt-card);
+line-height: var(--line-height-txt-card);
+}
+
+.line-black-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 393px; /* Largeur du carrousel */
+    height: 720px; /* Hauteur du carrousel */
+    overflow: hidden;
+    border: 2px solid #ccc; /* Bordure pour délimiter le carrousel */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: #503E3E; /* Fond marron permanent */
+    margin: 0 auto; /* Centre horizontalement */
+    margin-bottom: 90px;
+  }
+  
+  .carousel-slides {
+    display: flex; /* Affiche les diapositives horizontalement */
+    transition: transform 0.5s ease; /* Animation de la transition lors du changement de diapositive */
+  }
+  
+  .carousel-slide {
+    flex-shrink: 0; /* Empêche les diapositives de se rétrécir */
+    width: 393px; /* Largeur d'une diapositive (doit correspondre à celle du carrousel) */
+    height: 720px; /* Hauteur de la diapositive */
+    display: flex;
+    flex-direction: column; /* Aligne l'image et le texte verticalement */
+    align-items: center; /* Centre horizontalement les éléments */
+    justify-content: center; /* Centre verticalement les éléments */
+    text-align: center; /* Centre le texte */
+  }
+  
+  .carousel-slide img {
+    width: 225px; /* Fixe la largeur de l'image */
+    height: 340px; /* Fixe la hauteur de l'image */
+    object-fit: cover; /* Ajuste l'image sans déformation */
+    border-radius: 5px; /* Coins arrondis de l'image */
+    margin-bottom: 20px; /* Espace entre l'image et le texte */
+  }
+  
+  .carousel-slide p {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    top: 50%; /* Place les boutons verticalement au centre */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Boutons aux extrémités */
+    transform: translateY(-50%); /* Ajuste le centrage */
+    pointer-events: none; /* Empêche les boutons de bloquer le clic sur le carrousel */
+  }
+  
+  .carousel-button-prev,
+  .carousel-button-next {
+    background-color: #503E3E; /* Boutons semi-transparents */
+    color: #fff; /* Couleur marron pour correspondre au thème */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    pointer-events: all; /* Active les clics uniquement sur les boutons */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .carousel-button-prev:hover,
+  .carousel-button-next:hover {
+    background-color: #fff; /* Change la couleur au survol */
+    color: #503E3E; /* Texte blanc au survol */
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px; /* Place les indicateurs en bas du carrousel */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .carousel-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #503E3E;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-indicator.active {
+    background-color: #503E3E; /* Indicateur actif en blanc */
+  }
+  
+  .btn-container {
+    text-align: center; /* Centre le contenu du conteneur */
+    margin-top: 20px; /* Espacement entre le texte et le bouton */
+    
+}
+
+.btn {
+    background: #665341; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px; /* Bordure arrondie */
+    width: 194.444px; /* Largeur du bouton */
+    height: 55.622px; /* Hauteur du bouton */
+    flex-shrink: 0; /* Empêche le bouton de se rétrécir dans un container flex */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn:hover {
+    background-color: #fff; /* Couleur de fond au survol */
+    color: #665341;
+}
+

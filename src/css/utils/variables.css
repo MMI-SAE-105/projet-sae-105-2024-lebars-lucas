@@ -25,4 +25,25 @@
 --font-style-txt-pres: normal;
 --font-weight-txt-pres: 700;
 --line-height-txt-pres: normal;
+
+--color-chap-card:  #FFF;
+--font-family-chap-card: 'IBM Plex Sans', sans-serif;
+--font-size-chap-card: 20px;
+--font-style-chap-card: normal;
+--font-weight-chap-card: 700;
+--line-height-chap-card: normal;
+
+--color-txt-card: #FFF;
+--font-family-txt-card: 'IBM Plex Sans', sans-serif;
+--font-size-txt-card: 13px;
+--font-style-txt-card: normal;
+--font-weight-txt-card: 400;
+--line-height-txt-card: normal;
+
+--color-txt-card-2: #000;
+--font-family-txt-card: 'IBM Plex Sans', sans-serif;
+--font-size-txt-card: 13px;
+--font-style-txt-card: normal;
+--font-weight-txt-card: 400;
+--line-height-txt-card: normal;
 }
