@@ -2,12 +2,12 @@
     position: fixed;
     inset: 0;
     background-color: #665341;
-    z-index: 1000;
     visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
+    list-style: none;
     
 }
 
@@ -38,6 +38,11 @@
     position: absolute;
     top: 27.5px;
     right: 27.5px;
+    
+}
+
+.x-icon-close{
+cursor: pointer;
 }
 
 .menu__item a{
@@ -45,8 +50,20 @@
     text-decoration: none;
     color: var(--texte-menu-color);
     font-family: var( --font-family-menu);
-    font-size: var(--font-style-menu);
+    font-size: var(--font-size-menu);
     font-style: var(--font-style-menu);
     font-weight: var(--font-weight-menu);
-    line-height: var(--line-height-menu);
+    display: block; /* Assurez-vous que les liens prennent tout l'espace */
+    margin-bottom: 35px; /* Espacement entre les liens */
+    
+}
+
+.menu__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.menu__list{
+height: 475px;
+width: 300px;
+list-style: none;
 }
