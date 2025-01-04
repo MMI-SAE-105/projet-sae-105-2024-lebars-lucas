@@ -3,11 +3,91 @@ footer{
     width: 100%;
 height: 500px;
 flex-shrink: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-mmi{
     display: flex;
-    align-items: bottom;
+    justify-content: center;
+    margin-bottom: 20px;
+   
 }
 
 .mmi-logo{
+    width: 80px;
+height: 57.288px;
+margin-top: 20px;
+}
+
+.line-footer{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-line{
+width: 50px;
+height: 0px;
+flex-shrink: 0;
+}
+
+.a-propos-footer,.nom-prenom-footer,.groupe-footer{
+    color: var(--color-texte-footer);
+   font-family: var(--font-family-footer);
+font-size: var(--font-size-footer);
+font-style: var(--font-style-footer);
+font-weight: var(--font-weight-footer);
+line-height: var(--line-height-footer);
+display: flex;
+justify-content: center;
+margin-bottom: 8px;
+}
+
+.contact-footer,.email-footer{
+    color: var(--color-texte-footer);
+    font-family: var(--font-family-footer);
+ font-size: var(--font-size-footer);
+ font-style: var(--font-style-footer);
+ font-weight: var(--font-weight-footer);
+ line-height: var(--line-height-footer);
+ display: flex;
+ justify-content: center;
+ margin-bottom: 25px;
+}
+
+.icon-white-socialmedia{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.instagram-white-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.droit-auteur-mmi{
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; /* Centre le texte à l'intérieur de l'élément */
+    width: 100%; /* Assure que l'élément prend toute la largeur disponible */
+    max-width: 400px; /* Limite la largeur pour éviter des lignes trop longues */
+    margin: 0 auto;
+    padding: 10px;
+    color: var(--color-droit-footer);
+    font-family: var(--font-family-droit-footer);
+    font-size: var(--font-size-droit-footer);
+    font-style: var(--font-style-droit-footer);
+    font-weight: var(--font-weight-droit-footer);
+    line-height: var(--line-height-droit-footer);
+}
+
+.droit-auteur-mmi a {
+    color: inherit; /* Hérite de la couleur du texte du parent */
+    text-decoration: none; /* Supprime le soulignage */
+    font-weight: bold; /* Met le texte en gras */
 }

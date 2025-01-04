@@ -4,4 +4,25 @@
     --font-size-menu: 35px;
     --font-style-menu: normal;
     --font-weight-menu: 700;
+    
+    --color-texte-footer: #FFF;
+    --font-family-footer: 'Inter', sans-serif;
+--font-size-footer: 20px;
+--font-style-footer: normal;
+--font-weight-footer: 400;
+--line-height-footer: normal;
+
+--color-droit-footer: #FFF;
+--font-family-droit-footer: 'IBM Plex Sans', sans-serif;
+--font-size-droit-footer: 10px;
+--font-style-droit-footer: normal;
+--font-weight-droit-footer: 400;
+--line-height-droit-footer: normal;
+
+--color-txt-pres: #000;
+--font-family-txt-pres: 'IBM Plex Sans', sans-serif;
+--font-size-txt-pres: 20px;
+--font-style-txt-pres: normal;
+--font-weight-txt-pres: 700;
+--line-height-txt-pres: normal;
 }

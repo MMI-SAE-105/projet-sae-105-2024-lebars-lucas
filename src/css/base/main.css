@@ -1,0 +1,29 @@
+body {
+    padding-top: 110px; /* Ajustez cette valeur pour correspondre à la hauteur de votre header */
+}
+.fond-accueil{
+    width: 100%;
+    height: 855px;
+    z-index: 1;
+}
+
+.txt-pres{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+color: var(--color-txt-pres);
+font-family: var(--font-family-txt-pres);
+font-size: var(--font-size-txt-pres);
+font-style: var(--font-style-txt-pres);
+font-weight: var(--font-weight-txt-pres);
+line-height: var(--line-height-txt-pres);
+}
+
+.rectangle-card{
+    border-radius: 50px;
+background-color: #665341;
+width: 326px;
+height: 450px;
+margin: 0 auto;
+margin-bottom: 80px;
+}
