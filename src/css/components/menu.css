@@ -1,4 +1,4 @@
-.menu {
+.menu{
     position: fixed;
     inset: 0;
     background-color: #665341;
@@ -19,6 +19,12 @@
     position: absolute;
     left: 0;
     
+}
+
+.lateral-bar-2{
+    position: absolute;
+    left: 0;
+    top: 50;
 }
 
 .bar-lateral{
@@ -66,4 +72,8 @@ cursor: pointer;
 height: 475px;
 width: 300px;
 list-style: none;
+}
+
+body.menu2{
+    background-color: #665341;
 }

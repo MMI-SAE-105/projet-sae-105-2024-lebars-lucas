@@ -19,6 +19,18 @@ font-weight: var(--font-weight-txt-pres);
 line-height: var(--line-height-txt-pres);
 }
 
+.txt-pres-2{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+color: var(--color-txt-pres-2);
+font-family: var(--font-family-txt-pres);
+font-size: var(--font-size-txt-pres);
+font-style: var(--font-style-txt-pres);
+font-weight: var(--font-weight-txt-pres);
+line-height: var(--line-height-txt-pres);
+}
+
 .rectangle-card{
     border-radius: 50px;
 background-color: #665341;
@@ -47,6 +59,7 @@ font-size: var(--font-size-txt-card);
 font-style: var(--font-style-txt-card);
 font-weight: var(--font-weight-txt-card);
 line-height: var(--line-height-txt-card);
+margin-top: 50px;
 }
 
 .rectangle-card-2{
@@ -203,3 +216,94 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
+body.film{
+  background-color: #36281B;
+}
+
+.title-page{
+  color: var(--color-title-page);
+font-family: var(--font-family-title-page);
+font-size: var(--font-size-title-page);
+font-style: var(--font-style-title-page);
+font-weight: var(--font-weight-title-page);
+line-height: var(--line-height-title-page);
+margin-left: 20px;
+margin-bottom: 40px;
+}
+
+.txt-page-1{
+  text-align: left;
+  color: var(--color-txt-1-film);
+font-family: var(--font-family-txt-1-film);
+font-size: var(--font-size-txt-1-film);
+font-style: var(--font-style-txt-1-film);
+font-weight: var(--font-weight-txt-1-film);
+line-height: var(--line-height-txt-1-film);
+margin-bottom: 60px;
+width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+    margin-left: 20px;
+}
+
+.title-small-film{
+  color: var(--color-title-small);
+font-family: var(--font-family-title-page);
+font-size: var(--font-size-title-page);
+font-style: var(--font-style-title-page);
+font-weight: var(--font-weight-title-page);
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+.txt-film{
+  color: var(--color-txt-film);
+font-family: var(--font-family-txt-film);
+font-size: var(--font-size-txt-film);
+font-style: var(--font-style-txt-film);
+font-weight: var(--font-weight-txt-film);
+line-height: var(--line-height-txt-film);
+width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.txt-filmm{
+  color: var(--color-txt-film);
+  font-family: var(--font-family-txt-film);
+  font-size: var(--font-size-txt-film);
+  font-style: var(--font-style-txt-film);
+  font-weight: var(--font-weight-txt-film);
+  line-height: var(--line-height-txt-film);
+  width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+      margin-left: 20px;
+      text-align: left;
+      margin-bottom: 50px;
+}
+
+.chapeau-page{
+  display: flex;
+  justify-content: center;
+}
+
+.txt-last-film{
+  text-align: left;
+  color: var(--color-txt-1-film);
+font-family: var(--font-family-txt-1-film);
+font-size: var(--font-size-txt-1-film);
+font-style: var(--font-style-txt-1-film);
+font-weight: var(--font-weight-txt-1-film);
+line-height: var(--line-height-txt-1-film);
+margin-bottom: 100px;
+width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+    margin-left: 20px;
+}
+
+.logo-bottom{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+body.livre{
+background-color: #36281B;
+}

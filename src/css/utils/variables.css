@@ -26,6 +26,8 @@
 --font-weight-txt-pres: 700;
 --line-height-txt-pres: normal;
 
+--color-txt-pres-2: #fff;
+
 --color-chap-card:  #FFF;
 --font-family-chap-card: 'IBM Plex Sans', sans-serif;
 --font-size-chap-card: 20px;
@@ -46,4 +48,34 @@
 --font-style-txt-card: normal;
 --font-weight-txt-card: 400;
 --line-height-txt-card: normal;
+
+--color-title-page: var(--Blanc, #FFF);
+--font-family-title-page: 'IBM Plex Sans', sans-serif;
+--font-size-title-page: 20px;
+--font-style-title-page: normal;
+--font-weight-title-page: 700;
+--line-height-title-page: normal;
+
+--color-txt-1-film:  #FFF;
+--font-family-txt-1-film: 'IBM Plex Sans', sans-serif;
+--font-size-txt-1-film: 13px;
+--font-style-txt-1-film: normal;
+--font-weight-txt-1-film: 400;
+--line-height-txt-1-film: normal;
+
+--color-title-small: #FFF;
+--font-family-title-small: Inter;
+--font-size-title-small: 18px;
+--font-style-title-small: normal;
+--font-weight-title-small: 900;
+--line-height-title-small: normal;
+
+--color-txt-film: #FFF;
+--font-family-txt-film: "IBM Plex Mono";
+--font-size-txt-film: 13px;
+--font-style-txt-film: normal;
+--font-weight-txt-film: 400;
+--line-height-txt-film: normal;
+
+
 }

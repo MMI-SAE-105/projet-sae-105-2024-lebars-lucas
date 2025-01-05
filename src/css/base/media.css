@@ -1,6 +1,15 @@
 .accueil-fond{
     width: 100%;
-    height: 855px;
+    height: 730px;
+    flex-shrink: 0;
+}
+
+
+.accueil-fond-2{
+    width: 100%;
+height: 730px;
+flex-shrink: 0;
+margin-bottom: 20px;
 }
 
 .card-chapeau{
@@ -11,4 +20,70 @@ margin-top: 20px;
 margin-left: 13px;
 margin-right: 13px;
 margin-bottom: 23px;
+}
+
+.pic-1-film{
+    width: 355px;
+    height: 214px;
+    flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.pic-2-film{
+    width: 344px;
+height: 280px;
+flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.video-film-1{
+    display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.video-film-2{
+    display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pic-3-film{
+    width: 250px;
+height: 312.5px;
+flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.pic-1-harry-potter{
+    width: 289px;
+height: 284px;
+flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.pic-2-harry-potter{
+    width: 343px;
+height: 232px;
+flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.harry-potter-pic-3{
+    width: 250px;
+    height: 334.169px;
+    flex-shrink: 0;
+    display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }

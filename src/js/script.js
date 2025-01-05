@@ -7,11 +7,10 @@ menuButton.addEventListener('click', () => {
 });
 
 document.addEventListener('click', function(event) {
-  if (event.target.src.endsWith('/assets/icons/X-close-icon.png')) {
+  if (event.target.src.endsWith('/assets/icons/X-close-icon.svg')) {
     menu.setAttribute('aria-hidden', 'true');
   }
 });
-
 
 
 // Sélectionne les éléments du carrousel
