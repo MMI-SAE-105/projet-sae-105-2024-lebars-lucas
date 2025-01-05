@@ -7,6 +7,12 @@ body {
     z-index: 1;
 }
 
+.fond-accueil-3{
+  width: 100%;
+  height: 730px;
+  z-index: 1;
+}
+
 .txt-pres{
     text-align: center;
     margin-top: 25px;
@@ -20,6 +26,18 @@ line-height: var(--line-height-txt-pres);
 }
 
 .txt-pres-2{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+color: var(--color-txt-pres-2);
+font-family: var(--font-family-txt-pres);
+font-size: var(--font-size-txt-pres);
+font-style: var(--font-style-txt-pres);
+font-weight: var(--font-weight-txt-pres);
+line-height: var(--line-height-txt-pres);
+}
+
+.txt-pres-3{
   text-align: center;
   margin-top: 25px;
   margin-bottom: 40px;
@@ -216,7 +234,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film{
+body.film,body.livre,body.musique{
   background-color: #36281B;
 }
 
@@ -304,6 +322,29 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   margin-bottom: 100px;
 }
 
-body.livre{
-background-color: #36281B;
+.music-pic-1{
+  margin-bottom: 25px;
+}
+
+.txt-musique{
+  color: var(--color-txt-film);
+font-family: var(--font-family-txt-film);
+font-size: var(--font-size-txt-film);
+font-style: var(--font-style-txt-film);
+font-weight: var(--font-weight-txt-film);
+line-height: var(--line-height-txt-film);
+width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.music-pic-2{
+  margin-bottom: 50px;
+}
+
+.line-musique{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
