@@ -70,12 +70,19 @@
 --font-weight-title-small: 900;
 --line-height-title-small: normal;
 
---color-txt-film: #FFF;
---font-family-txt-film: "IBM Plex Mono";
---font-size-txt-film: 13px;
---font-style-txt-film: normal;
---font-weight-txt-film: 400;
---line-height-txt-film: normal;
+--color-txt-page: #FFF;
+--font-family-txt-page: 'IBM Plex Sans', sans-serif;
+--font-size-txt-page: 13px;
+--font-style-txt-page: normal;
+--font-weight-txt-page: 400;
+--line-height-txt-page: normal;
 
+
+--color-txt-realisateur-cinevisionnaire-2:  #FFF;
+--font-family-txt-realisateur-cinevisionnaire-2: 'IBM Plex Sans', sans-serif;
+--font-size-txt-realisateur-cinevisionnaire-2: 10px;
+--font-style-txt-realisateur-cinevisionnaire-2: normal;
+--font-weighttxt-realisateur-cinevisionnaire-2: 400;
+--line-height-txt-realisateur-cinevisionnaire-2: normal;
 
 }

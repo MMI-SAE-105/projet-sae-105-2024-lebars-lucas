@@ -1,16 +1,10 @@
 body {
     padding-top: 110px; /* Ajustez cette valeur pour correspondre à la hauteur de votre header */
 }
-.fond-accueil{
+.fond-accueil,.fond-accueil-3,.fond-accueil-4{
     width: 100%;
-    height: 745px;
+    height: 730px;
     z-index: 1;
-}
-
-.fond-accueil-3{
-  width: 100%;
-  height: 730px;
-  z-index: 1;
 }
 
 .txt-pres{
@@ -38,6 +32,18 @@ line-height: var(--line-height-txt-pres);
 }
 
 .txt-pres-3{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+color: var(--color-txt-pres-2);
+font-family: var(--font-family-txt-pres);
+font-size: var(--font-size-txt-pres);
+font-style: var(--font-style-txt-pres);
+font-weight: var(--font-weight-txt-pres);
+line-height: var(--line-height-txt-pres);
+}
+
+.txt-pres-4{
   text-align: center;
   margin-top: 25px;
   margin-bottom: 40px;
@@ -273,12 +279,12 @@ margin-bottom: 15px;
 }
 
 .txt-film{
-  color: var(--color-txt-film);
-font-family: var(--font-family-txt-film);
-font-size: var(--font-size-txt-film);
-font-style: var(--font-style-txt-film);
-font-weight: var(--font-weight-txt-film);
-line-height: var(--line-height-txt-film);
+  color: var(--color-txt-page);
+font-family: var(--font-family-txt-page);
+font-size: var(--font-size-txt-page);
+font-style: var(--font-style-txt-page);
+font-weight: var(--font-weight-txt-page);
+line-height: var(--line-height-txt-page);
 width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
     margin-left: 20px;
     text-align: left;
@@ -286,12 +292,12 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 }
 
 .txt-filmm{
-  color: var(--color-txt-film);
-  font-family: var(--font-family-txt-film);
-  font-size: var(--font-size-txt-film);
-  font-style: var(--font-style-txt-film);
-  font-weight: var(--font-weight-txt-film);
-  line-height: var(--line-height-txt-film);
+  color: var(--color-txt-page);
+  font-family: var(--font-family-txt-page);
+  font-size: var(--font-size-txt-page);
+  font-style: var(--font-style-txt-page);
+  font-weight: var(--font-weight-txt-page);
+  line-height: var(--line-height-txt-page);
   width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
       margin-left: 20px;
       text-align: left;
@@ -301,6 +307,7 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 .chapeau-page{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .txt-last-film{
@@ -327,12 +334,12 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 }
 
 .txt-musique{
-  color: var(--color-txt-film);
-font-family: var(--font-family-txt-film);
-font-size: var(--font-size-txt-film);
-font-style: var(--font-style-txt-film);
-font-weight: var(--font-weight-txt-film);
-line-height: var(--line-height-txt-film);
+  color: var(--color-txt-page);
+font-family: var(--font-family-txt-page);
+font-size: var(--font-size-txt-page);
+font-style: var(--font-style-txt-page);
+font-weight: var(--font-weight-txt-page);
+line-height: var(--line-height-txt-page);
 width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
     margin-left: 20px;
     text-align: left;
@@ -343,8 +350,48 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   margin-bottom: 50px;
 }
 
-.line-musique{
+.line-musique,.line-realisateur{
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+
+.txt-realisateur{
+  color: var(--color-txt-page);
+font-family: var(--font-family-txt-page);
+font-size: var(--font-size-txt-page);
+font-style: var(--font-style-txt-page);
+font-weight: var(--font-weight-txt-page);
+line-height: var(--line-height-txt-page);
+width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.txt-realisateur-cinevisionnaire{
+  color: var(--color-txt-page);
+  font-family: var(--font-family-txt-page);
+  font-size: var(--font-size-txt-page);
+  font-style: var(--font-style-txt-page);
+  font-weight: var(--font-weight-txt-page);
+  line-height: var(--line-height-txt-page);
+  width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+      margin-left: 20px;
+      text-align: left;
+      margin-bottom: 10px;
+}
+
+.txt-realisateur-cinevisionnaire-2{
+  color: var(--color-txt-realisateur-cinevisionnaire-2);
+  font-family: var(--font-family-txt-page);
+  font-size: var(--font-size-txt-page);
+  font-style: var(--font-style-txt-page);
+  font-weight: var(--font-weight-txt-page);
+  line-height: var(--line-height-txt-page);
+  width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour les marges */
+      margin-left: 20px;
+      text-align: left;
+      margin-bottom: 50px;
 }
