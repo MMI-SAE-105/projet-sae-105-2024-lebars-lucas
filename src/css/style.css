@@ -1,20 +1,20 @@
 /* Vendors */
-@import "src/vendors/normalize.css";
+@import "/src/css/vendors/normalize.css";
 
 /* Utils */
-@import "src/utils/variables.css";
+@import "/src/css/utils/variables.css";
 
 /* Base */
-@import "src/base/main.css";
-@import "src/base/media.css";
-@import "src/base/informations.css";
+@import "/src/css/base/main.css";
+@import "/src/css/base/media.css";
+@import "/src/css/base/media.css";
 
 /* Layout */
-@import "src/layout/header.css";
-@import "src/layout/footer.css";
-@import "src/layout/body.css";
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
+@import "/src/css/layout/body.css";
 
 /* Components */
-@import "src/components/menu.css";
-@import "src/components/hero.css";
-@import "src/components/section.css";
+@import "/src/css/components/menu.css";
+@import "/src/css/components/hero.css";
+@import "/src/css/components/section.css";

@@ -234,7 +234,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film,body.livre,body.musique{
+body.film,body.livre,body.musique,body.realisateur{
   background-color: #36281B;
 }
 
