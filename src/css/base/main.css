@@ -240,7 +240,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film,body.livre,body.musique,body.realisateur{
+body.film,body.livre,body.musique,body.realisateur,body.frise{
   background-color: #36281B;
 }
 
@@ -394,4 +394,54 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
       margin-left: 20px;
       text-align: left;
       margin-bottom: 50px;
+}
+
+.njdsv{
+  margin-bottom: 500px;
+}
+
+
+.carrousel-personnalise-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carrousel-personnalise {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carrousel-personnalise img {
+  width: 250px;
+  height: 250px;
+  margin: 0 25px;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: brown;
+  font-size: 30px;
+  border: 2px solid #d2b48c; /* Bordure marron clair */
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
+}
+
+.arrow:hover {
+  background-color: rgba(210, 180, 140, 0.2); /* Fond transparent avec un léger survol */
 }

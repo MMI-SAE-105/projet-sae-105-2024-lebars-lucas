@@ -63,3 +63,27 @@ indicators.forEach((indicator, index) => {
 
 // Initialisation du carrousel
 changeSlide();
+
+
+
+
+
+
+
+let index = 0;
+const images = document.querySelector('.carrousel-personnalise');
+const totalImages = document.querySelectorAll('.carrousel-personnalise img').length;
+
+function moveLeft() {
+  index = (index === 0) ? totalImages - 1 : index - 1;
+  updateCarrousel();
+}
+
+function moveRight() {
+  index = (index === totalImages - 1) ? 0 : index + 1;
+  updateCarrousel();
+}
+
+function updateCarrousel() {
+  images.style.transform = `translateX(-${index * (250 + 50)}px)`; // 250px image width + 50px margin
+}
