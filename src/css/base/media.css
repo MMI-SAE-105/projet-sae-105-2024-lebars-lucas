@@ -1,35 +1,7 @@
-.accueil-fond{
+.accueil-fond,.accueil-fond-2,.accueil-fond-3,.accueil-fond-4,.accueil-fond-5,.accueil-fond-6{
     width: 100%;
     height: 730px;
     flex-shrink: 0;
-}
-
-
-.accueil-fond-2{
-    width: 100%;
-height: 730px;
-flex-shrink: 0;
-margin-bottom: 20px;
-}
-
-.accueil-fond-3{
-    width: 100%;
-height: 730px;
-flex-shrink: 0;
-
-}
-
-.accueil-fond-4{
-  width: 100%;
-height: 730px;
-flex-shrink: 0;
-
-}
-
-.accueil-fond-5{
-  width: 100%;
-height: 730px;
-flex-shrink: 0;
 }
 
 .card-chapeau{

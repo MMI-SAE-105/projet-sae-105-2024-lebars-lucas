@@ -15,7 +15,7 @@ document.addEventListener('click', function(event) {
 
 
 const carouselSlides1 = document.querySelector('.carousel-slides');
-const carouselSlide1 = document.querySelectorAll('.carousel-slide'); // NodeList de diapositives
+const carouselSlide1 = document.querySelectorAll('.carousel-slide'); 
 const prevButton1 = document.querySelector('.carousel-button-prev');
 const nextButton1 = document.querySelector('.carousel-button-next');
 const indicators1 = document.querySelectorAll('.carousel-indicator');
@@ -60,8 +60,6 @@ changeSlide1();
 
 const carouselSlides2 = document.querySelector('.carousel-slides-2');
 const carouselSlide2 = document.querySelectorAll('.carousel-slide-2');
-const prevButton2 = document.querySelector('.carousel-button-prev-2');
-const nextButton2 = document.querySelector('.carousel-button-next-2');
 const indicators2 = document.querySelectorAll('.carousel-indicator-2');
 
 let currentIndex2 = 0;
@@ -80,19 +78,6 @@ function changeSlide2() {
     }
   });
 }
-
-function nextSlide2() {
-  currentIndex2 = (currentIndex2 + 1) % carouselSlide2.length; // Modifie l'index pour passer à la prochaine diapositive
-  changeSlide2();
-}
-
-function prevSlide2() {
-  currentIndex2 = (currentIndex2 - 1 + carouselSlide2.length) % carouselSlide2.length; // Passe à la diapositive précédente
-  changeSlide2();
-}
-
-if (nextButton2) nextButton2.addEventListener('click', nextSlide2);
-if (prevButton2) prevButton2.addEventListener('click', prevSlide2);
 
 indicators2.forEach((indicator, index) => {
   indicator.addEventListener('click', () => {

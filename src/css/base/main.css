@@ -11,6 +11,10 @@ body {
   margin-bottom: 20px;
 }
 
+.fond-accueil-6{
+  margin-bottom: 75px;
+}
+
 .txt-pres{
     text-align: center;
     margin-top: 25px;
@@ -247,7 +251,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film,body.livre,body.musique,body.realisateur,body.frise{
+body.film,body.livre,body.musique,body.realisateur,body.frise,body.filmlist{
   background-color: #36281B;
 }
 
@@ -420,12 +424,12 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   margin-bottom: 90px;
 }
 
-.carousel-slides-2 {
+.carousel-slides {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
-.carousel-slide-2 {
+.carousel-slide {
   flex-shrink: 0; /* Empêche les diapositives de se rétrécir */
   width: 350px; /* Largeur d'une diapositive (doit correspondre à celle du carrousel) */
   height: 350px; /* Hauteur de la diapositive */
@@ -437,7 +441,7 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   box-sizing: border-box;
 }
 
-.carousel-slide-2 img {
+.carousel-slide img {
   width: 250px; /* Fixe la largeur de l'image */
   height: 250px; /* Fixe la hauteur de l'image */
   object-fit: cover; /* Ajuste l'image sans déformation */
@@ -452,30 +456,6 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   display: flex;
   justify-content: space-between; /* Boutons aux extrémités */
   transform: translateY(-50%); /* Ajuste le centrage */
-}
-
-.carousel-button-prev-2,
-.carousel-button-next-2 {
-  background-color: #503E3E; /* Boutons semi-transparents */
-  color: #fff; /* Couleur marron pour correspondre au thème */
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  pointer-events: all; /* Active les clics uniquement sur les boutons */
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.carousel-button-prev-2:hover,
-.carousel-button-next-2:hover {
-  background-color: #fff; /* Change la couleur au survol */
-  color: #503E3E; /* Texte blanc au survol */
 }
 
 .carousel-indicators-2 {
@@ -499,6 +479,7 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 .carousel-indicator-2.active {
   background-color: #fff; /* Indicateur actif en blanc */
 }
+
 
 .card-evo-left{
   width: 200px;
@@ -562,3 +543,55 @@ background: #503E3E;
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+
+
+
+
+
+
+
+.carousel-container-3 {
+  position: relative;
+  width: 393px; /* Largeur du carrousel */
+  height: 720px; /* Hauteur du carrousel */
+  overflow: hidden;
+  border: 2px solid #ccc; /* Bordure pour délimiter le carrousel */
+  border-radius: 10px; /* Coins arrondis */
+  background-color: #503E3E; /* Fond marron permanent */
+  margin: 0 auto; /* Centre horizontalement */
+  margin-bottom: 90px;
+}
+
+.carousel-slides {
+  display: flex; /* Affiche les diapositives horizontalement */
+  transition: transform 0.5s ease-in-out; /* Animation de la transition lors du changement de diapositive */
+}
+
+.carousel-slide {
+  flex-shrink: 0; /* Empêche les diapositives de se rétrécir */
+  width: 393px; /* Largeur d'une diapositive (doit correspondre à celle du carrousel) */
+  height: 720px; /* Hauteur de la diapositive */
+  display: flex;
+  flex-direction: column; /* Aligne l'image et le texte verticalement */
+  align-items: center; /* Centre horizontalement les éléments */
+  justify-content: center; /* Centre verticalement les éléments */
+  text-align: center; /* Centre le texte */
+  flex: 0 0 100%;
+}
+
+.carousel-slide img {
+  width: 225px; /* Fixe la largeur de l'image */
+  height: 340px; /* Fixe la hauteur de l'image */
+  object-fit: cover; /* Ajuste l'image sans déformation */
+  border-radius: 5px; /* Coins arrondis de l'image */
+  margin-bottom: 20px; /* Espace entre l'image et le texte */
+}
+
+.carousel-slide p {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+
