@@ -54,37 +54,3 @@ indicators1.forEach((indicator, index) => {
 });
 
 changeSlide1();
-
-
-
-
-const carouselSlides2 = document.querySelector('.carousel-slides-2');
-const carouselSlide2 = document.querySelectorAll('.carousel-slide-2');
-const indicators2 = document.querySelectorAll('.carousel-indicator-2');
-
-let currentIndex2 = 0;
-
-function changeSlide2() {
-  // Vérifie si carouselSlides2 existe avant d'appliquer une transformation
-  if (carouselSlides2) {
-    carouselSlides2.style.transform = `translateX(-${currentIndex2 * 100}%)`;
-  }
-
-  // Met à jour les indicateurs
-  indicators2.forEach((indicator, index) => {
-    indicator.classList.remove('active');
-    if (index === currentIndex2) {
-      indicator.classList.add('active');
-    }
-  });
-}
-
-indicators2.forEach((indicator, index) => {
-  indicator.addEventListener('click', () => {
-    currentIndex2 = index;
-    changeSlide2();
-  });
-});
-
-// Initialise le carrousel au premier slide
-changeSlide2();

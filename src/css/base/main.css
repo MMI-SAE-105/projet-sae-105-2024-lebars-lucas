@@ -144,7 +144,7 @@ line-height: var(--line-height-txt-card);
     flex-shrink: 0; /* Empêche les diapositives de se rétrécir */
     width: 393px; /* Largeur d'une diapositive (doit correspondre à celle du carrousel) */
     height: 720px; /* Hauteur de la diapositive */
-    display: flex;
+    display: flx;
     flex-direction: column; /* Aligne l'image et le texte verticalement */
     align-items: center; /* Centre horizontalement les éléments */
     justify-content: center; /* Centre verticalement les éléments */
@@ -159,6 +159,8 @@ line-height: var(--line-height-txt-card);
     border-radius: 5px; /* Coins arrondis de l'image */
     margin-bottom: 20px; /* Espace entre l'image et le texte */
   }
+  
+  
   
   .carousel-slide p {
     font-size: 20px;
@@ -594,4 +596,6 @@ background: #503E3E;
   margin: 0;
   font-weight: 700;
 }
+
+
 
