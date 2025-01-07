@@ -13,77 +13,93 @@ document.addEventListener('click', function(event) {
 });
 
 
-// Sélectionne les éléments du carrousel
-const carouselSlides = document.querySelector('.carousel-slides');
-const carouselSlide = document.querySelectorAll('.carousel-slide');
-const prevButton = document.querySelector('.carousel-button-prev');
-const nextButton = document.querySelector('.carousel-button-next');
-const indicators = document.querySelectorAll('.carousel-indicator');
 
-// Déclare une variable pour suivre l'index de la diapositive actuelle
-let currentIndex = 0;
+const carouselSlides1 = document.querySelector('.carousel-slides');
+const carouselSlide1 = document.querySelectorAll('.carousel-slide'); // NodeList de diapositives
+const prevButton1 = document.querySelector('.carousel-button-prev');
+const nextButton1 = document.querySelector('.carousel-button-next');
+const indicators1 = document.querySelectorAll('.carousel-indicator');
 
-// Fonction pour changer la diapositive
-function changeSlide() {
-  // Applique la transformation pour déplacer le carrousel
-  carouselSlides.style.transform = `translateX(-${currentIndex * 100}%)`;
+let currentIndex1 = 0;
 
-  // Met à jour l'état des indicateurs
-  indicators.forEach((indicator, index) => {
+function changeSlide1() {
+  carouselSlides1.style.transform = `translateX(-${currentIndex1 * 100}%)`;
+
+  indicators1.forEach((indicator, index) => {
     indicator.classList.remove('active');
-    if (index === currentIndex) {
+    if (index === currentIndex1) {
       indicator.classList.add('active');
     }
   });
 }
 
-// Fonction pour aller à la diapositive suivante
-function nextSlide() {
-  currentIndex = (currentIndex + 1) % carouselSlide.length; // Passe à la diapositive suivante, revient au début à la fin
-  changeSlide();
+function nextSlide1() {
+  currentIndex1 = (currentIndex1 + 1) % carouselSlide1.length; // Utilise carouselSlide1.length ici
+  changeSlide1();
 }
 
-// Fonction pour aller à la diapositive précédente
-function prevSlide() {
-  currentIndex = (currentIndex - 1 + carouselSlide.length) % carouselSlide.length; // Passe à la diapositive précédente, revient à la fin à l'avant
-  changeSlide();
+function prevSlide1() {
+  currentIndex1 = (currentIndex1 - 1 + carouselSlide1.length) % carouselSlide1.length; // Utilise carouselSlide1.length ici
+  changeSlide1();
 }
 
-// Écouteurs d'événements pour les boutons de navigation
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
+nextButton1.addEventListener('click', nextSlide1);
+prevButton1.addEventListener('click', prevSlide1);
 
-// Écouteurs d'événements pour les indicateurs
-indicators.forEach((indicator, index) => {
+indicators1.forEach((indicator, index) => {
   indicator.addEventListener('click', () => {
-    currentIndex = index;
-    changeSlide();
+    currentIndex1 = index;
+    changeSlide1();
   });
 });
 
-// Initialisation du carrousel
-changeSlide();
+changeSlide1();
 
 
 
 
+const carouselSlides2 = document.querySelector('.carousel-slides-2');
+const carouselSlide2 = document.querySelectorAll('.carousel-slide-2');
+const prevButton2 = document.querySelector('.carousel-button-prev-2');
+const nextButton2 = document.querySelector('.carousel-button-next-2');
+const indicators2 = document.querySelectorAll('.carousel-indicator-2');
 
+let currentIndex2 = 0;
 
+function changeSlide2() {
+  // Vérifie si carouselSlides2 existe avant d'appliquer une transformation
+  if (carouselSlides2) {
+    carouselSlides2.style.transform = `translateX(-${currentIndex2 * 100}%)`;
+  }
 
-let index = 0;
-const images = document.querySelector('.carrousel-personnalise');
-const totalImages = document.querySelectorAll('.carrousel-personnalise img').length;
-
-function moveLeft() {
-  index = (index === 0) ? totalImages - 1 : index - 1;
-  updateCarrousel();
+  // Met à jour les indicateurs
+  indicators2.forEach((indicator, index) => {
+    indicator.classList.remove('active');
+    if (index === currentIndex2) {
+      indicator.classList.add('active');
+    }
+  });
 }
 
-function moveRight() {
-  index = (index === totalImages - 1) ? 0 : index + 1;
-  updateCarrousel();
+function nextSlide2() {
+  currentIndex2 = (currentIndex2 + 1) % carouselSlide2.length; // Modifie l'index pour passer à la prochaine diapositive
+  changeSlide2();
 }
 
-function updateCarrousel() {
-  images.style.transform = `translateX(-${index * (250 + 50)}px)`; // 250px image width + 50px margin
+function prevSlide2() {
+  currentIndex2 = (currentIndex2 - 1 + carouselSlide2.length) % carouselSlide2.length; // Passe à la diapositive précédente
+  changeSlide2();
 }
+
+if (nextButton2) nextButton2.addEventListener('click', nextSlide2);
+if (prevButton2) prevButton2.addEventListener('click', prevSlide2);
+
+indicators2.forEach((indicator, index) => {
+  indicator.addEventListener('click', () => {
+    currentIndex2 = index;
+    changeSlide2();
+  });
+});
+
+// Initialise le carrousel au premier slide
+changeSlide2();

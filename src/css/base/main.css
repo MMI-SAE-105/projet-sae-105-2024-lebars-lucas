@@ -7,6 +7,10 @@ body {
     z-index: 1;
 }
 
+.fond-accueil-5{
+  margin-bottom: 20px;
+}
+
 .txt-pres{
     text-align: center;
     margin-top: 25px;
@@ -129,7 +133,7 @@ line-height: var(--line-height-txt-card);
   
   .carousel-slides {
     display: flex; /* Affiche les diapositives horizontalement */
-    transition: transform 0.5s ease; /* Animation de la transition lors du changement de diapositive */
+    transition: transform 0.5s ease-in-out; /* Animation de la transition lors du changement de diapositive */
   }
   
   .carousel-slide {
@@ -141,6 +145,7 @@ line-height: var(--line-height-txt-card);
     align-items: center; /* Centre horizontalement les éléments */
     justify-content: center; /* Centre verticalement les éléments */
     text-align: center; /* Centre le texte */
+    flex: 0 0 100%;
   }
   
   .carousel-slide img {
@@ -204,14 +209,16 @@ line-height: var(--line-height-txt-card);
   .carousel-indicator {
     width: 10px;
     height: 10px;
-    background-color: #503E3E;
+    background-color: #665341;
     border-radius: 50%;
+    
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .carousel-indicator.active {
-    background-color: #503E3E; /* Indicateur actif en blanc */
+    background-color: #fff; /* Indicateur actif en blanc */
+    
   }
   
   .btn-container {
@@ -401,47 +408,157 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 }
 
 
-.carrousel-personnalise-container {
-  width: 300px;
-  height: 300px;
+.carousel-container-2 {
   position: relative;
+  width: 350px; /* Largeur du carrousel */
+  height: 350px; /* Hauteur du carrousel */
   overflow: hidden;
-  margin: 0 auto;
+  border: 2px solid #ccc; /* Bordure pour délimiter le carrousel */
+  border-radius: 10px; /* Coins arrondis */
+  background-color: #503E3E; /* Fond marron permanent */
+  margin: 0 auto; /* Centre horizontalement */
+  margin-bottom: 90px;
 }
 
-.carrousel-personnalise {
+.carousel-slides-2 {
   display: flex;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
-.carrousel-personnalise img {
-  width: 250px;
-  height: 250px;
-  margin: 0 25px;
-  object-fit: cover;
+.carousel-slide-2 {
+  flex-shrink: 0; /* Empêche les diapositives de se rétrécir */
+  width: 350px; /* Largeur d'une diapositive (doit correspondre à celle du carrousel) */
+  height: 350px; /* Hauteur de la diapositive */
+  display: flex;
+  flex-direction: column; /* Aligne l'image et le texte verticalement */
+  align-items: center; /* Centre horizontalement les éléments */
+  justify-content: center; /* Centre verticalement les éléments */
+  text-align: center; /* Centre le texte */
+  box-sizing: border-box;
 }
 
-.arrow {
+.carousel-slide-2 img {
+  width: 250px; /* Fixe la largeur de l'image */
+  height: 250px; /* Fixe la hauteur de l'image */
+  object-fit: cover; /* Ajuste l'image sans déformation */
+  border-radius: 5px; /* Coins arrondis de l'image */
+  margin-bottom: 20px; /* Espace entre l'image et le texte */
+}
+
+.carousel-buttons-2 {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  color: brown;
-  font-size: 30px;
-  border: 2px solid #d2b48c; /* Bordure marron clair */
-  padding: 10px;
+  top: 50%; /* Place les boutons verticalement au centre */
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Boutons aux extrémités */
+  transform: translateY(-50%); /* Ajuste le centrage */
+}
+
+.carousel-button-prev-2,
+.carousel-button-next-2 {
+  background-color: #503E3E; /* Boutons semi-transparents */
+  color: #fff; /* Couleur marron pour correspondre au thème */
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  z-index: 1;
+  transition: background-color 0.3s ease;
+  pointer-events: all; /* Active les clics uniquement sur les boutons */
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.arrow-left {
-  left: 0;
+.carousel-button-prev-2:hover,
+.carousel-button-next-2:hover {
+  background-color: #fff; /* Change la couleur au survol */
+  color: #503E3E; /* Texte blanc au survol */
 }
 
-.arrow-right {
-  right: 0;
+.carousel-indicators-2 {
+  position: absolute;
+  bottom: 20px; /* Place les indicateurs en bas du carrousel */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.arrow:hover {
-  background-color: rgba(210, 180, 140, 0.2); /* Fond transparent avec un léger survol */
+.carousel-indicator-2 {
+  width: 10px;
+  height: 10px;
+  background-color: #665341;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-indicator-2.active {
+  background-color: #fff; /* Indicateur actif en blanc */
+}
+
+.card-evo-left{
+  width: 200px;
+height: 350px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #FFF;
+background: #503E3E;
+margin-bottom: 30px;
+margin-left: 15px;
+}
+
+.txt-card-1{
+  margin-top: 20px;
+  text-align: center;
+  color: var(--color-txt-card-evo);
+font-family: var(--font-family-txt-card)-evo;
+font-size: var(--font-size-txt-card-evo);
+font-style: var(--font-style-txt-card-evo);
+font-weight: var(--font-weight-txt-card-evo);
+line-height: var(--line-height-txt-card-evo);
+}
+
+.card-evo-right{
+  width: 200px;
+height: 350px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #FFF;
+background: #503E3E;
+margin-bottom: 15px;
+
+}
+
+.container-evo{
+  display: flex;
+  justify-content: right;
+   margin-right: 20px;
+}
+
+.arrow-evo{
+  margin-left: 150px
+}
+
+.evo-arrow-right{
+  display: flex;
+  justify-content: right;
+   margin-right: 150px;
+}
+.container-evo-2{
+  width: 300px;
+height:  300px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid #FFF;
+background: #503E3E;
+}
+
+.container-evo-2{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
