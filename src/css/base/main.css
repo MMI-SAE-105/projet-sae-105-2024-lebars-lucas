@@ -414,16 +414,27 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
 }
 
 
-.carousel-container-2 {
+.container-img-bottom {
   position: relative;
-  width: 350px; /* Largeur du carrousel */
-  height: 350px; /* Hauteur du carrousel */
+  width: 250px; /* Largeur du carrousel */
+  height: 250px; /* Hauteur du carrousel */
   overflow: hidden;
-  border: 2px solid #ccc; /* Bordure pour délimiter le carrousel */
+  border: 5px solid #000; /* Bordure pour délimiter le carrousel */
   border-radius: 10px; /* Coins arrondis */
-  background-color: #503E3E; /* Fond marron permanent */
+  background-color: #fff; /* Fond marron permanent */
   margin: 0 auto; /* Centre horizontalement */
   margin-bottom: 90px;
+}
+
+.container-img-bottom :hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.7s;
+}
+
+.img-frise-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-slides {
