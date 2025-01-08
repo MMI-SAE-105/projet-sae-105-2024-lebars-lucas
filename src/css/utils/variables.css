@@ -113,4 +113,32 @@
 --font-style-title-otherprocects: normal;
 --font-weight-title-otherprocects: 700;
 --line-height-title-otherprocects: normal;
+
+--color-txt-a-propos-top: #FFF;
+--font-family-txt-a-propos-top: 'IBM Plex Sans', sans-serif;
+--font-size-txt-a-propos-top: 15px;
+--font-style-txt-a-propos-top: normal;
+--font-weight-txt-a-propos-top: 400;
+--line-height-txt-a-propos-top: normal;
+
+--color-title-apropos: #FFF;
+--font-family-title-apropos: 'IBM Plex Sans', sans-serif;
+--font-size-title-apropos: 30px;
+--font-style-title-apropos: normal;
+--font-weight-title-apropos: 700;
+--line-height-title-apropos: normal;
+
+--color-glossaire-gras-txt: #FFF;
+--font-family-glossaire-gras-txt: Inter;
+--font-size-glossaire-gras-txt: 15px;
+--font-style-glossaire-gras-txt: normal;
+--font-weight-glossaire-gras-txt: 700;
+--line-height-glossaire-gras-txt: normal;
+
+--color-glossaire-regular-txt: #FFF;
+--font-family-glossaire-regular-txt: "IBM Plex Mono";
+--font-size-glossaire-regular-txt: 15px;
+--font-style-glossaire-regular-txt: normal;
+--font-weight-glossaire-regular-txt: 400;
+--line-height-glossaire-regular-txt: normal;
 }

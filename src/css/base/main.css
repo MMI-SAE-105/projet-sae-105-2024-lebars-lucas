@@ -765,3 +765,100 @@ margin-bottom: 15px;
   display: flex;
   margin-bottom:40px;
 }
+
+.txt-top-apropos{
+  color: var(--color-txt-a-propos-top);
+font-family: var(--font-family-txt-a-propos-top);
+font-size: var(--font-size-txt-a-propos-top);
+font-style: var(--font-size-txt-a-propos-top);
+font-weight: var(--font-weight-txt-a-propos-top);
+line-height: var(--line-height-txt-a-propos-top);
+margin-left: 40px;
+margin-bottom: 20px;
+}
+
+.txt-top-apropo-2{
+  color: var(--color-txt-a-propos-top);
+font-family: var(--font-family-txt-a-propos-top);
+font-size: var(--font-size-txt-a-propos-top);
+font-style: var(--font-size-txt-a-propos-top);
+font-weight: var(--font-weight-txt-a-propos-top);
+line-height: var(--line-height-txt-a-propos-top);
+margin-left: 40px;
+margin-bottom: 100px;
+}
+
+.title-apropos{
+  color: var(--color-title-apropos);
+font-family: var(--font-family-title-apropos);
+font-size: var(--font-size-title-apropos);
+font-style: var(--font-style-title-apropos);
+font-weight: var(--font-weight-title-apropos);
+line-height: var(--line-height-title-apropos);
+margin-bottom: 50px;
+margin-left: 20px;
+}
+
+.def-glossaire {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espace entre les définitions */
+}
+
+.fordisme {
+  display: flex;
+  align-items: center; /* Aligne les éléments verticalement au centre */
+}
+
+.fordisme1 {
+  color: var(--color-glossaire-gras-txt);
+  font-family: var(--font-family-glossaire-gras-txt);
+  font-size: var(--font-size-glossaire-gras-txt);
+  font-style: var(--font-style-glossaire-gras-txt);
+  font-weight: var(--font-weight-glossaire-gras-txt);
+  line-height: var(--line-height-glossaire-gras-txt);
+  margin-right: 10px; /* Espace entre les deux éléments */
+}
+
+.fordisme2 {
+  font-weight: normal; /* Met le texte en regular */
+  color: var(--color-glossaire-regular-txt);
+  font-family: var(--font-family-glossaire-regular-txt);
+  font-size: var(--font-size-glossaire-regular-txt);
+  font-style: var(--font-style-glossaire-regular-txt);
+  font-weight: var(--font-weight-glossaire-regular-txt);
+  line-height: var(--line-height-glossaire-regular-txt);
+}
+
+.def-glossaire2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espace entre les définitions */
+  margin-bottom: 100px;
+}
+
+.fordisme22{
+  font-weight: normal; /* Met le texte en regular */
+  color: var(--color-glossaire-regular-txt);
+  font-family: var(--font-family-glossaire-regular-txt);
+  font-size: var(--font-size-glossaire-regular-txt);
+  font-style: var(--font-style-glossaire-regular-txt);
+  font-weight: var(--font-weight-glossaire-regular-txt);
+  line-height: var(--line-height-glossaire-regular-txt);
+  margin-bottom: 100px;
+}
+
+.fordisme11{
+  color: var(--color-glossaire-gras-txt);
+  font-family: var(--font-family-glossaire-gras-txt);
+  font-size: var(--font-size-glossaire-gras-txt);
+  font-style: var(--font-style-glossaire-gras-txt);
+  font-weight: var(--font-weight-glossaire-gras-txt);
+  line-height: var(--line-height-glossaire-gras-txt);
+  margin-right: 10px; /* Espace entre les deux éléments */
+  margin-bottom: 100px;
+}
+
+.ensemble-def{
+  margin-left: 10px;
+}
