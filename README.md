@@ -6,5 +6,5 @@
 - NOM : LEBARS
 - PRÉNOM : LUCAS
 - GROUPE : B2
-- URL du site : https://hat-era.netlify.app/
+- URL du site : https://hat-era.lucas-lebars.fr/fr/
 - URL FIGMA : https://www.figma.com/design/fl4lA50eSqOldcX2V5mYwh/Projet-S1?node-id=0-1&t=HaFFXuDtjodrgC84-1
