@@ -34,7 +34,7 @@
 
 .bar-lateral-chapeau{
     top: 0;
-    left: -10px;
+    left: -5px;
     position: absolute;
     width: 80px;
     height: 80px;
@@ -80,4 +80,65 @@ body.menu2{
 
 body.menu2{
     background: #665341;
+}
+
+.sidebar2{
+    width: 74px;
+height: 100vh;
+flex-shrink: 0;
+border-radius: 0px 25px 25px 0px;
+background-color: #FFF;
+position: absolute;
+top: 0;
+z-index: 1;
+}
+
+.point-bar-side{
+    width: 25px;
+height: 25px;
+flex-shrink: 0;
+border-radius: 100%;
+fill: #665341;
+position: absolute;
+z-index: 1;
+top: 50vh;
+display: flex; /* Utilise Flexbox pour centrer les éléments enfants */
+    justify-content: center; /* Centre horizontalement */
+    left: 20px;
+    
+}
+
+.skip-back{
+    position: absolute;
+    left: 25vh;
+    top: 37vh;
+}
+
+.autres-menu2{
+    color: var(--color-autres-menu2);
+    font-family: var(--font-family-autres-menu2);
+    font-size: var(--font-size-autres-menu2);
+    font-style: var(--font-style-autres-menu2);
+    font-weight: var(--font-weight-autres-menu2);
+    line-height: var(--line-height-autres-menu2);
+    position: absolute;
+    top: 50vh;
+    left: 10vh;
+}
+
+.autres-menu22{
+    color: var(--color-menu-other-2);
+    font-family: var(--font-family-menu-other-2);
+    font-size: var(--font-size-menu-other-2);
+    font-style: var(--font-style-menu-other-2);
+    font-weight: var(--font-weight-menu-other-2);
+    line-height: var(--line-height-menu-other-2);
+    position: absolute;
+    top: 55vh;
+    left: 12vh;
+}
+
+a {
+    text-decoration: none; /* Enlève les décorations des liens */
+    color: inherit; /* Hérite de la couleur du texte parent */
 }

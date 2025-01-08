@@ -141,4 +141,18 @@
 --font-style-glossaire-regular-txt: normal;
 --font-weight-glossaire-regular-txt: 400;
 --line-height-glossaire-regular-txt: normal;
+
+--color-autres-menu2: #FFF;
+--font-family-autres-menu2: "IBM Plex Mono";
+--font-size-autres-menu2: 35px;
+--font-style-autres-menu2: normal;
+--font-weight-autres-menu2: 700;
+--line-height-autres-menu2: normal;
+
+--color-menu-other-2: #FFF;
+--font-family-menu-other-2: 'Inter', sans-serif;
+--font-size-menu-other-2: 30px;
+--font-style-menu-other-2: normal;
+--font-weight-menu-other-2: 700;
+--line-height-menu-other-2: normal;
 }

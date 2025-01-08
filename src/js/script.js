@@ -54,3 +54,4 @@ indicators1.forEach((indicator, index) => {
 });
 
 changeSlide1();
+
