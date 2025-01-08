@@ -91,4 +91,11 @@
 --font-style-txt-card-evo: normal;
 --font-weight-txt-card-evo: 2000;
 --line-height-txt-card-evo: normal;
+
+--color-title-filmlist: #FFF;
+--font-family-title-filmlist: 'IBM Plex Sans', sans-serif;
+--font-size-title-filmlist: 20px;
+--font-style-title-filmlist: normal;
+--font-weight-title-filmlist: 700;
+--line-height-title-filmlist: normal;
 }
