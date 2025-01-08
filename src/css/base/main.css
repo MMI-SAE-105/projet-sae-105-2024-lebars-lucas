@@ -22,6 +22,10 @@ body {
 .fond-accueil-8{
 margin-bottom: 35px;
 }
+
+.fond-accueil-9{
+  margin-bottom: 45px;
+}
 .txt-pres{
     text-align: center;
     margin-top: 25px;
@@ -260,7 +264,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film,body.livre,body.musique,body.realisateur,body.frise,body.filmlist,body.autresprojets,body.contact{
+body.film,body.livre,body.musique,body.realisateur,body.frise,body.filmlist,body.autresprojets,body.contact,body.apropos{
   background-color: #36281B;
 }
 
@@ -754,4 +758,10 @@ margin-bottom: 15px;
   justify-content: center;
   display: flex;
   margin-bottom: 100px;
+}
+
+.img-moi{
+  justify-content: center;
+  display: flex;
+  margin-bottom:40px;
 }

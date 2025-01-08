@@ -1,4 +1,4 @@
-.accueil-fond,.accueil-fond-2,.accueil-fond-3,.accueil-fond-4,.accueil-fond-5,.accueil-fond-6,.accueil-fond-7,.accueil-fond-8{
+.accueil-fond,.accueil-fond-2,.accueil-fond-3,.accueil-fond-4,.accueil-fond-5,.accueil-fond-6,.accueil-fond-7,.accueil-fond-8,.accueil-fond-9{
     width: 100%;
     height: 730px;
     flex-shrink: 0;
@@ -223,5 +223,11 @@ flex-shrink: 0;
 .img-other-7{
   width: 160px;
 height: 160px;
+flex-shrink: 0;
+}
+
+.moi-img{
+  width: 243px;
+height: 243px;
 flex-shrink: 0;
 }
