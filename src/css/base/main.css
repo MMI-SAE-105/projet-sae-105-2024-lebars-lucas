@@ -15,6 +15,13 @@ body {
   margin-bottom: 75px;
 }
 
+.fond-accueil-6{
+  margin-bottom: 25px;
+}
+
+.fond-accueil-8{
+margin-bottom: 35px;
+}
 .txt-pres{
     text-align: center;
     margin-top: 25px;
@@ -253,7 +260,7 @@ line-height: var(--line-height-txt-card);
     color: #665341;
 }
 
-body.film,body.livre,body.musique,body.realisateur,body.frise,body.filmlist{
+body.film,body.livre,body.musique,body.realisateur,body.frise,body.filmlist,body.autresprojets,body.contact{
   background-color: #36281B;
 }
 
@@ -633,4 +640,118 @@ line-height: var(--line-height-title-filmlist);
 margin-bottom: 15px;
 }
 
+.txt-pres-2{
+  color: var(--color-txt-pres-2);
+font-family: var(--font-family-txt-pres-2);
+font-size: var(--font-size-txt-pres-2);
+font-style: var(--font-style-txt-pres-2);
+font-weight: var(--font-weight-txt-pres-2);
+line-height: var(--line-height-txt-pres-2);
+margin-bottom: 40px;
+}
 
+.line-otherprojects{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.line-otherprojects2{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.logo-other-projects{
+  display: flex;
+  justify-content: center;
+}
+
+.title-otherprojects{
+  text-align: center;
+  color: var(--color-title-otherprocects);
+font-family: var(--font-family-title-otherprocects);
+font-size: var(--font-size-title-otherprocects);
+font-style: var(--font-style-title-otherprocects);
+font-weight: var(--font-weight-title-otherprocects);
+line-height: var(--line-height-title-otherprocects);
+margin-bottom: 15px;
+}
+
+.line-otherprojects-small{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 325px;
+  height: 500px;
+  padding: 20px;
+  border: 2px solid #5b3c11;
+  border-radius: 50px; /* Bordures arrondies */
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Organise les éléments verticalement */
+  justify-content: center; /* Répartit les éléments dans le conteneur */
+  
+  box-sizing: border-box; /* Inclut les bordures et padding dans la taille totale */
+}
+
+.form-title {
+  text-align: center;
+  color: #5b3c11;
+  margin-bottom: 10px;
+  font-size: 20px; /* Taille ajustée pour être proportionnelle */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-size: 14px; /* Taille ajustée pour rester lisible mais compacte */
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  color: #5b3c11;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #5b3c11;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #5b3c11;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.form-textarea {
+  resize: none; /* Désactive le redimensionnement pour garder l'esthétique */
+  height: 80px; /* Hauteur ajustée pour s’intégrer au conteneur */
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5b3c11;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px; /* Harmonise avec le conteneur arrondi */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #4a300e;
+}
+
+.conteneur-contact{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 100px;
+}

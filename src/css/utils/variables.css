@@ -98,4 +98,19 @@
 --font-style-title-filmlist: normal;
 --font-weight-title-filmlist: 700;
 --line-height-title-filmlist: normal;
+
+--color-txt-pres-2: #FFF;
+--text-align-txt-pres-2: center;
+--font-family-txt-pres-2: 'IBM Plex Sans', sans-serif;
+--font-size-txt-pres-2: 20px;
+--font-style-txt-pres-2: normal;
+--font-weight-txt-pres-2: 700;
+--line-height-txt-pres-2: normal;
+
+--color-title-otherprocects: #FFF;
+--font-family-title-otherprocects: "IBM Plex Mono";
+--font-size-title-otherprocects: 20px;
+--font-style-title-otherprocects: normal;
+--font-weight-title-otherprocects: 700;
+--line-height-title-otherprocects: normal;
 }
