@@ -419,9 +419,9 @@ width: calc(100% - 40px); /* Prend toute la largeur de la page moins 40px pour l
   width: 250px; /* Largeur du carrousel */
   height: 250px; /* Hauteur du carrousel */
   overflow: hidden;
-  border: 5px solid #000; /* Bordure pour délimiter le carrousel */
+  border: 2px solid #fff; /* Bordure pour délimiter le carrousel */
   border-radius: 10px; /* Coins arrondis */
-  background-color: #fff; /* Fond marron permanent */
+  background-color: #665341; /* Fond marron permanent */
   margin: 0 auto; /* Centre horizontalement */
   margin-bottom: 90px;
 }

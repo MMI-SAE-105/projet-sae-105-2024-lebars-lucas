@@ -169,3 +169,17 @@ display: block;
   margin-top: 15px;
   margin-bottom: 50px;
 }
+
+.video-musique{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 350px;
+height: 196.875px;
+flex-shrink: 0;
+}
+
+.vid{
+  display: flex;
+  justify-content: center;
+}
